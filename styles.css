@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #222;
+  height: 100vh;
+}
+.title {
+  color: white;
+  font-size: 20px;
+}
+input {
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+#btn {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.todo-style {
+  height: 40px;
+  padding: 8px;
+  background-color: rgb(244, 230, 230);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 7px;
+}
+.deleteBtn {
+  background-color: red;
+  color: white;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 4px;
+}
+.editBtn {
+  background-color: #8181c7;
+  color: white;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 4px;
+}
